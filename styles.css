@@ -1,0 +1,299 @@
+html {
+	background: linear-gradient(#EDF5E1, #5CDB95);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	opacity: 0.85;
+}
+p {
+	padding: 0;
+	margin 0;
+}
+#Eng{
+	float: right;
+	background-color: white;
+	border: 2px solid green;
+	margin-left: 0.5%;
+}
+#Eng:hover{
+	-webkit-transition-duration: 0.4s;
+	background-color: #00c600;
+}
+
+#Fin{
+	float: right;
+	background-color: white;
+	border: 2px solid green;
+	margin-right: 0.5%;
+}
+#Fin:hover{
+	-webkit-transition-duration: 0.4s;
+	background-color: #00c600;
+}
+
+#header{
+	background-image: url("Kuvat/backgroundImage.png");
+	background-size: cover;
+}
+#header p {
+	position: relative;
+	font-size: 5vw;
+	color: rgb(219, 245, 244);
+	text-align: center;
+	text-shadow: 2px 3px 1px gray;
+}
+@media only screen and (max-width: 600px){
+	#header p {
+		position: relative;
+		font-size: 24px;
+		color: rgb(219, 245, 244);
+		text-align: center;
+		text-shadow: 2px 3px 1px gray;
+	}
+}
+body {
+	font-family: 'Roboto', serif;
+	font-size: 24px;
+}
+@media only screen and (max-width: 600px){
+body {
+	font-family: 'Roboto', serif;
+	font-size: 16px;
+}
+}
+
+.section {
+	background-color: #F0F3F4;
+	padding: 0.5vw;
+	margin-bottom: 0.5vw;
+	margin-right: 7vw;
+	margin-left: 7vw;
+	border-radius: 20px;
+	border-bottom: 0.125em solid black;
+}
+@media only screen and (max-width: 600px){
+	.section {
+		background-color: #F0F3F4;
+		padding: 6vw;
+		margin-bottom: 0.5vw;
+		margin-right: 1vw;
+		margin-left: 1vw;
+		border-radius: 20px;
+		border-bottom: 0.125em solid black;
+	}
+}
+.circle-img {
+	float: left;
+	width: 14vw;
+	height: 14vw;
+	border: 2px solid white;
+	margin-right: -200px;
+	margin-top: 1vw;
+	border-radius: 50%;
+	opacity: 0.0;
+}
+@media only screen and (max-width: 600px){
+	.circle-img {
+		float: left;
+		width:60px;
+		height:60px;
+		border: 2px solid white;
+		margin-right: -200px;
+		margin-top: 1vw;
+		border-radius: 50%;
+	}
+}
+h1{
+	font-size: 2.5vw;
+	text-align: center;
+	color: #05386B;
+}
+@media only screen and (max-width: 600px){
+h1{
+	margin-top: -3px;
+	font-size: 18px;
+	text-align: center;
+	color: #05386B;
+}
+}
+h1 span{
+	border: 4px dotted #24bd87;
+	padding: 10px;
+	box-shadow: inset 5px 5px 5px grey,inset -5px -5px 5px grey;
+}
+@media only screen and (max-width: 600px){
+	h1 span{
+	border: 4px dotted #24bd87;
+	padding: 10px;
+	box-shadow: inset 3px 3px 3px grey;
+	display: block;
+}
+}
+a{
+	text-decoration: none;
+}
+.quote{
+	font-size: 1em;
+	text-align: right;
+	margin-top: 50px;
+}
+table{
+width: 100%;
+font-size: 0.90em;
+border-collapse: collapse;
+}
+@media only screen and (max-width: 600px){
+table{
+width: 100%;
+font-size: 3vw;
+border-collapse: collapse;
+margin-left: -22px;
+}
+}
+table, td{
+	border: 0.1em solid #A9A9A9;
+	text-align: center;
+}
+
+
+.selected1{
+	background-color: #3498DB;
+	font-weight: bold;
+	color: white;
+	height: 80px;
+}
+.selected2{
+	background-color: #E67E22;
+	font-weight: bold;
+	color: white;
+	height: 48px;
+}
+.selected3{
+	background-color: #E74C3C;
+	font-weight: bold;
+	color: white;
+	height: 96px;
+}
+.selected4{
+	background-color: #884EA0;
+	font-weight: bold;
+	color: white;
+	height: 107px;
+}
+li{
+	margin-bottom: 40px;
+	font-weight: bold;
+}
+#myProgress{
+	width: 70%;
+	background-color: grey;
+	border-radius: 10px;
+}
+#myProgressbar1{
+	width: 50%;
+	height: 30px;
+	background-color: #ff3333;
+	text-align: center;
+	border-radius: 10px;
+}
+#myProgressbar2{
+	width: 40%;
+	height: 30px;
+	background-color: #ff3333;
+	text-align: center;
+	border-radius: 10px;
+}
+progress{
+-webkit-appearance: none;
+-moz-appearance: none;
+width: 70%;
+height: 30px;
+text-align: center;
+}
+progress::-webkit-progress-bar{
+	background-color: gray;
+}
+progress::-webkit-progress-value {
+ 	background-color: red;
+}
+progress::-moz-progress-bar{
+	background-color: red;
+}
+
+progress:after {
+  content: attr(value)'%';
+}
+#programming1{
+	list-style-image: url("Kuvat/html.png");
+	list-style-position: inside;
+	border-radius: 20px;
+	
+}
+@media only screen and (max-width: 600px){
+#programming1{
+	list-style-image: url("Kuvat/html2.png");
+	list-style-position: inside;
+
+}
+}
+#programming2 {
+	list-style-image: url("Kuvat/css.png");
+	list-style-position: inside;
+}
+@media only screen and (max-width: 600px){
+#programming2 {
+	list-style-image: url("Kuvat/css2.png");
+	list-style-position: inside;
+}
+}
+#programming3 {
+	list-style-image: url("Kuvat/js.png");
+	list-style-position: inside;
+}
+@media only screen and (max-width: 600px){
+#programming3 {
+	list-style-image: url("Kuvat/js2.png");
+	list-style-position: inside;
+}
+}
+#programming4 {
+	list-style-image: url("Kuvat/java.jpg");
+	list-style-position: inside;
+}
+@media only screen and (max-width: 600px){
+#programming4 {
+	list-style-image: url("Kuvat/java2.jpg");
+	list-style-position: inside;
+}
+}
+#programming5 {
+	list-style-image: url("Kuvat/sql.png");
+	list-style-position: inside;
+}
+@media only screen and (max-width: 600px){
+#programming5 {
+	list-style-image: url("Kuvat/sql2.png");
+	list-style-position: inside;
+}
+}
+@media only screen and (min-width: 600px){
+#programmingCSS{
+	float: right;	
+}
+}
+#lausahdus{
+	text-align: center;
+	font-size: 45px;
+}
+@media only screen and (max-width: 600px){
+#lausahdus{
+	text-align: center;
+	font-size: 25px;
+}
+}
+.copyright{
+	font-size: 0.60em;
+	margin-top: 150px;
+	text-align: right;
+	color: grey;
+}

@@ -1,0 +1,141 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Blogini</title>
+		<link rel="stylesheet" href = "styles.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+		<link rel="icon" type="image/png" href="Kuvat/favicon-32x32.png" sizes="32x32" />
+
+
+	</head>
+	<meta charset = "utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<body>
+	<button id = "Eng" onclick = "EngSivulle()" type = "button">EN</button>
+	<button id = "Fin" onclick = "FinSivulle()" type = "button">FI</button>
+
+
+	<div id = "header" class = "section">
+		<img class="circle-img" src="Kuvat/omakuva.jpg" alt="omakuva">
+		<p> Blogini</p>
+	</div>
+
+	<div class = "section">
+		<h1><span>Hieman itsestäni</span></h1>
+			<p>
+				Moro, minun nimeni on <Strong> Artturi </Strong>. Opiskelen toista vuotta tietotekniikkaa Turun yliopistossa.
+				Näiden parin vuoden aikana olen huomannut, että tämä on juuri oikea ala minulle. Vaikka en ole vielä
+				huipputason koodari, niin olen innokas opettelemaan ja oppimaan uusia kieliä.
+				Tein tämän nettisivun käyttäen hyväksi <a href = "https://www.sololearn.com/"target="_blank"> SoloLearnin </a>
+				kurssien materiaaleja.
+			</p>
+			<p class = "quote">
+				"Truth can only be found in one place: the code." </br>
+				- Robert C. Martin
+			</p>
+	</div>
+
+	<div class = "section">
+		<h1><span>Kesälomaviikon kulku</span></h1>
+			<table>
+				<tr>
+					<th>Päivä</th>
+					<th>Maanantai</th>
+					<th>Tiistai</th>
+					<th>Keskiviikko</th>
+					<th>Torstai</th>
+					<th>Perjantai</th>
+				</tr>
+
+				<tr>
+					<td>7-12</td>
+					<td class = "selected1"> Töissä</td>
+					<td class = "selected1"> Töissä</td>
+					<td class = "selected1"> Töissä</td>
+					<td class = "selected1"> Töissä</td>
+					<td class = "selected1"> Töissä</td>
+				</tr>
+
+				<tr>
+					<td>12-15</td>
+					<td class = "selected2"> Työt jatkuu</td>
+					<td class = "selected2"> Työt jatkuu</td>
+					<td class = "selected2"> Työt jatkuu</td>
+					<td class = "selected2"> Työt jatkuu</td>
+					<td class = "selected2"> Työt jatkuu</td>
+				</tr>
+
+				<tr>
+					<td>16-22</td>
+					<td class = "selected3"> Koodailua, pelailua ja muuta puuhastelua</td>
+					<td class = "selected3"> Koodailua, pelailua ja muuta puuhastelua</td>
+					<td class = "selected3"> Koodailua, pelailua ja muuta puuhastelua</td>
+					<td class = "selected3"> Koodailua, pelailua ja muuta puuhastelua</td>
+					<td class = "selected3"> Koodailua, pelailua ja muuta puuhastelua</td>
+				</tr>
+
+				<tr>
+					<td>22-6</td>
+					<td class = "selected4"> Nukkumaan</td>
+					<td class = "selected4"> Nukkumaan</td>
+					<td class = "selected4"> Nukkumaan</td>
+					<td class = "selected4"> Nukkumaan</td>
+					<td class = "selected4"> Nukkumaan</td>
+				</tr>
+			</table>
+	</div>
+
+	<div class = "section">
+		<h1><span>IT-taidot</span></h1>
+			<ul>
+				<li id="programming1"> <strong>HTML </strong></br>
+					<div id = "myProgress">
+						<div id = "myProgressbar1">50%</div>
+					</div>
+				</li>
+				<li id="programming2"> <strong>CSS</strong></br>
+					<div id = "myProgress">
+						<div id = "myProgressbar1">50%</div>
+					</div>
+				</li>
+				<li id="programming3"> <strong>Javascript</strong></br>
+					<div id = "myProgress">
+						<div id = "myProgressbar2">40%</div>
+					</div>
+				</li>
+				<li id="programming4"> <strong>Java</strong></br>
+					<div id = "myProgress">
+						<div id = "myProgressbar2">40%</div>
+					</div>
+				</li>
+				<li id="programming5"> <strong>SQL</strong></br>
+					<div id = "myProgress">
+						<div id = "myProgressbar1">50%</div>
+					</div>
+				</li>
+
+			</ul>
+	</div>
+
+	<div class = "section">
+		<h1><span>Mediaa</span></h1>
+			<picture>
+				<source media = "(max-width: 600px)" srcset = "Kuvat/liekeis2.gif">
+				<img id = "liekeis" src = "Kuvat/liekeis.gif" alt = "liekeis">
+			</picture>
+			
+			<picture>
+				<source media = "(max-width: 600px)" srcset = "Kuvat/programmingCSS2.gif">
+				<img id = "programmingCSS" src = "Kuvat/programmingCSS.gif" alt = "programming">
+			</picture>
+			
+			
+			<p id = "lausahdus">Perusohjelmointia</br></p>
+
+	<div class = "copyright">&copy 2018 Artturi Tähtinen. All Rights Reserved.</div>
+
+	<script src = "scripti.js">type = "text/javascript"</script>
+
+</body>
+</html>
