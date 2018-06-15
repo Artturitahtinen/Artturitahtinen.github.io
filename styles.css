@@ -150,6 +150,22 @@ border-collapse: collapse;
 margin-left: -22px;
 }
 }
+@media only screen and (min-width: 900px){
+table{
+width: 100%;
+font-size: 1.5vw;
+border-collapse: collapse;
+margin-left: -22px;
+}
+}
+@media only screen and (max-width: 1500px){
+table{
+width: 100%;
+font-size: 1.5vw;
+border-collapse: collapse;
+margin-left: -22px;
+}
+}
 table, td{
 	border: 0.1em solid #A9A9A9;
 	text-align: center;
