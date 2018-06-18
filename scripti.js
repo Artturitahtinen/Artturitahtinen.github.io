@@ -1,7 +1,5 @@
 function EngSivulle(){
 	window.location = "En";
-	window.location = "EngBlogi";
-
 }
 function FinSivulle(){
 	window.location = "/";
