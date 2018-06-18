@@ -1,8 +1,8 @@
 function EngSivulle(){
-	window.location = "EngBlogi.html";
+	window.location = "EngBlogi";
 }
 function FinSivulle(){
-	window.location = "index.html";
+	window.location = "index";
 }
 window.onload = function(){
 	var x = document.getElementsByClassName("circle-img");
