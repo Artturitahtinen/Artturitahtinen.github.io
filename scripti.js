@@ -2,7 +2,7 @@ function EngSivulle(){
 	window.location = "EngBlogi";
 }
 function FinSivulle(){
-	window.location = "index";
+	window.location = "/";
 }
 window.onload = function(){
 	var x = document.getElementsByClassName("circle-img");
