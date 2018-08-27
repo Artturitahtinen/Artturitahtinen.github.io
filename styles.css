@@ -167,13 +167,19 @@ table, td{
 	background-color: #3498DB;
 	font-weight: bold;
 	color: white;
-	height: 80px;
+	height: 32px;
 }
 .selected2{
 	background-color: #E67E22;
 	font-weight: bold;
 	color: white;
-	height: 48px;
+	height: 32px;
+}
+.selected22{
+	background-color: #E74C3C;
+	font-weight: bold;
+	color: white;
+	height: 32px;
 }
 .selected3{
 	background-color: #E74C3C;
@@ -185,7 +191,7 @@ table, td{
 	background-color: #884EA0;
 	font-weight: bold;
 	color: white;
-	height: 107px;
+	height: 134px;
 }
 li{
 	margin-bottom: 40px;
