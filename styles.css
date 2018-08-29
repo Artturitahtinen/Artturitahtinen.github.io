@@ -289,6 +289,16 @@ progress:after {
 	list-style-position: inside;
 }
 }
+#programming6 {
+	list-style-image: url("Kuvat/php.png");
+	list-style-position: inside;
+}
+@media only screen and (max-width: 600px){
+#programming6 {
+	list-style-image: url("Kuvat/php2.png");
+	list-style-position: inside;
+}
+}
 @media only screen and (min-width: 600px){
 #programmingCSS{
 	float: right;	
