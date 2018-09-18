@@ -32,7 +32,7 @@ p {
 }
 
 #header{
-	background-image: url("Kuvat/backgroundImage.png");
+	background-image: url("Kuvat/programmingImage.jpg");
 	background-size: cover;
 }
 #header p {
@@ -240,7 +240,7 @@ progress:after {
 	list-style-image: url("Kuvat/html.png");
 	list-style-position: inside;
 	border-radius: 20px;
-	
+
 }
 @media only screen and (max-width: 600px){
 #programming1{
@@ -301,7 +301,7 @@ progress:after {
 }
 @media only screen and (min-width: 600px){
 #programmingCSS{
-	float: right;	
+	float: right;
 }
 }
 #lausahdus{
