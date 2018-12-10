@@ -117,15 +117,14 @@ h1{
 }
 }
 h1 span{
-	border: 4px dotted #24bd87;
 	padding: 10px;
-	box-shadow: inset 5px 5px 5px grey,inset -5px -5px 5px grey;
+	text-shadow: 4px, 3px, 0px, #fff, 9px, 8px, 0px, rgba(0, 0, 0, 0, 15);
 }
 @media only screen and (max-width: 600px){
 	h1 span{
 	border: 4px dotted #24bd87;
 	padding: 10px;
-	box-shadow: inset 3px 3px 3px grey;
+	text-shadow: 4px, 3px, 0px, #fff, 9px, 8px, 0px, rgba(0, 0, 0, 0, 15);
 	display: block;
 }
 }
@@ -137,62 +136,7 @@ a{
 	text-align: right;
 	margin-top: 50px;
 }
-table{
-width: 100%;
-font-size: 1vw;
-border-collapse: collapse;
-}
-@media only screen and (max-width: 600px){
-table{
-width: 100%;
-font-size: 1.5em;
-border-collapse: collapse;
-margin-left: -22px;
-}
-}
-@media only screen and (max-width: 1500px){
-table{
-width: 100%;
-font-size: 1.5vw;
-border-collapse: collapse;
-}
-}
-table, td{
-	border: 0.1em solid #A9A9A9;
-	text-align: center;
-}
 
-
-.selected1{
-	background-color: #3498DB;
-	font-weight: bold;
-	color: white;
-	height: 32px;
-}
-.selected2{
-	background-color: #E67E22;
-	font-weight: bold;
-	color: white;
-	height: 32px;
-}
-.selected22{
-	background-color: #E74C3C;
-	font-weight: bold;
-	color: white;
-	height: 32px;
-}
-.selected3{
-	background-color: #E74C3C;
-	font-weight: bold;
-	color: white;
-	height: 96px;
-}
-.selected4{
-	background-color: #884EA0;
-	font-weight: bold;
-	color: white;
-	height: 134px;
-}
 li{
 	margin-bottom: 40px;
 	font-weight: bold;
@@ -270,12 +214,12 @@ progress:after {
 }
 }
 #programming4 {
-	list-style-image: url("Kuvat/java.jpg");
+	list-style-image: url("Kuvat/java.png");
 	list-style-position: inside;
 }
 @media only screen and (max-width: 600px){
 #programming4 {
-	list-style-image: url("Kuvat/java2.jpg");
+	list-style-image: url("Kuvat/java2.png");
 	list-style-position: inside;
 }
 }
@@ -329,9 +273,6 @@ progress:after {
 	border-radius: 20px;
 	border-bottom: 0.125em solid black;
 	text-align: center;
-}
-#Pisteet{
-
 }
 #kehys{
 margin-top: 20px;
