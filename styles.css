@@ -1,9 +1,11 @@
-html {
-	background: linear-gradient(#EDF5E1, #5CDB95);
+body, html {
+	background: url("Kuvat/nature.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
-	opacity: 0.85;
+
+	font-family: 'Roboto', serif;
+	font-size: 24px;
 }
 p {
 	padding: 0;
@@ -50,10 +52,6 @@ p {
 		text-align: center;
 		text-shadow: 2px 3px 1px gray;
 	}
-}
-body {
-	font-family: 'Roboto', serif;
-	font-size: 24px;
 }
 @media only screen and (max-width: 600px){
 body {
