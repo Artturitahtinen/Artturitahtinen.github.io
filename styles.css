@@ -1,7 +1,6 @@
 body, html {
 	background: url("Kuvat/nature.jpg");
 	background-repeat: no-repeat;
-	background-attachment: fixed;
 	background-size: cover;
 
 	font-family: 'Roboto', serif;
@@ -241,26 +240,28 @@ progress:after {
 	list-style-position: inside;
 }
 }
+#liekeis{
+	text-align: center;
+	object-fit: contain;
+}
 @media only screen and (min-width: 600px){
 #programmingCSS{
-	float: right;
+	text-align: center;
+	object-fit: contain;
 }
 }
 #lausahdus{
 	text-align: center;
-	font-size: 45px;
 }
 @media only screen and (max-width: 600px){
 #lausahdus{
 	text-align: center;
-	font-size: 25px;
 }
 }
 .copyright{
 	font-size: 0.60em;
 	margin-top: 30px;
 	text-align: right;
-	color: grey;
 }
 .Peli{
 	background-color: #F0F3F4;
@@ -271,6 +272,11 @@ progress:after {
 	border-radius: 20px;
 	border-bottom: 0.125em solid black;
 	text-align: center;
+}
+@media only screen and (max-width: 750px){
+.Peli{
+	display: none;
+}
 }
 #kehys{
 margin-top: 20px;
