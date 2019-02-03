@@ -5,27 +5,7 @@ function FinSivulle(){
 	window.location = "/";
 }
 window.onload = function(){
-	Opacitointi();
 	SnakeGame();
-
-	function Opacitointi(){
-
-	var x = document.getElementsByClassName("circle-img");
-	var y = x[0];
-	var opacitointiArvo = 0;
-	var t = setInterval(Opacitoi2, 50);
-
-	function Opacitoi2(){
-	if(opacitointiArvo > 1){
-		clearInterval(t);
-	}
-	else{
-		opacitointiArvo += 0.1;
-		var z = opacitointiArvo.toString();
-		y.style.opacity = opacitointiArvo;
-	}
-	}
- }
  };
 
 ////////////////////SnakeGame///////////////////////
@@ -159,7 +139,6 @@ function checkEnter(e){
 	var x = e.keyCode;
 	if(x == 13){
 		ctx.clearRect(0, 0, cWidth, cHeight);
-		snake = [];
 		snake[0] = {
 	  x: cWidth/2,
 	  y: cHeight/2

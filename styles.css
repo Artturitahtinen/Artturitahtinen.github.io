@@ -79,6 +79,96 @@ body {
 		border-bottom: 0.125em solid black;
 	}
 }
+.section0 {
+	background-color: #F0F3F4;
+	padding: 0.5vw;
+	border-radius: 20px;
+	border-bottom: 0.125em solid black;
+	margin-bottom: 0.5vw;
+	margin-right: 7vw;
+	margin-left: 7vw;
+	position: relative;
+	left: 1400px;
+	animation-name: animation0;
+	animation-delay: 1.2s;
+	animation-duration: 1s;
+	animation-timing-function: linear;
+	animation-fill-mode: forwards;
+}
+@keyframes animation0 {
+100% {left: 0px;}
+}
+@media only screen and (max-width: 600px){
+	.section0 {
+		background-color: #F0F3F4;
+		padding: 6vw;
+		margin-bottom: 0.5vw;
+		margin-right: 1vw;
+		margin-left: 1vw;
+		border-radius: 20px;
+		border-bottom: 0.125em solid black;
+	}
+}
+.section1 {
+	background-color: #F0F3F4;
+	padding: 0.5vw;
+	border-radius: 20px;
+	border-bottom: 0.125em solid black;
+	margin-bottom: 0.5vw;
+	margin-right: 7vw;
+	margin-left: 7vw;
+	position: relative;
+	right: 1400px;
+	animation-name: animation1;
+	animation-delay: 1.5s;
+	animation-duration: 1s;
+	animation-timing-function: linear;
+	animation-fill-mode: forwards;
+}
+@keyframes animation1 {
+100% {right: 0px;}
+}
+@media only screen and (max-width: 600px){
+	.section1 {
+		background-color: #F0F3F4;
+		padding: 6vw;
+		margin-bottom: 0.5vw;
+		margin-right: 1vw;
+		margin-left: 1vw;
+		border-radius: 20px;
+		border-bottom: 0.125em solid black;
+	}
+}
+.section2 {
+	background-color: #F0F3F4;
+	padding: 0.5vw;
+	border-radius: 20px;
+	border-bottom: 0.125em solid black;
+	margin-bottom: 0.5vw;
+	margin-right: 7vw;
+	margin-left: 7vw;
+	position: relative;
+	left: 1400px;
+	animation-name: animation2;
+	animation-delay: 3s;
+	animation-duration: 1s;
+	animation-timing-function: linear;
+	animation-fill-mode: forwards;
+}
+@keyframes animation2 {
+100% {left: 0px;}
+}
+@media only screen and (max-width: 600px){
+	.section2 {
+		background-color: #F0F3F4;
+		padding: 6vw;
+		margin-bottom: 0.5vw;
+		margin-right: 1vw;
+		margin-left: 1vw;
+		border-radius: 20px;
+		border-bottom: 0.125em solid black;
+	}
+}
 .circle-img {
 	float: left;
 	width: 14vw;
@@ -87,7 +177,6 @@ body {
 	margin-right: -200px;
 	margin-top: 1vw;
 	border-radius: 50%;
-	opacity: 0.0;
 }
 @media only screen and (max-width: 600px){
 	.circle-img {
@@ -243,11 +332,12 @@ progress:after {
 #liekeis{
 	text-align: center;
 	object-fit: contain;
+	margin: auto;
 }
 @media only screen and (min-width: 600px){
 #programmingCSS{
-	text-align: center;
-	object-fit: contain;
+	align: middle;
+	margin: auto;
 }
 }
 #lausahdus{
