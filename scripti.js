@@ -6,6 +6,7 @@ function FinSivulle(){
 }
 window.onload = function(){
 	SnakeGame();
+	divAnimations();
  };
 
 ////////////////////SnakeGame///////////////////////
@@ -147,4 +148,13 @@ function checkEnter(e){
 	 document.getElementById("Pisteet").innerHTML = "Pisteet: 0";
 		game = setInterval(Draw, 100);
 	}
+}
+function divAnimations(){
+	var section0 = document.getElementById("section0");
+	var section1 = document.getElementById("section1");
+	var section2 = document.getElementById("section1");
+	section0.addClass(animation0);
+	section1.addClass(animation1);
+	section2.addClass(animation2);
+
 }
