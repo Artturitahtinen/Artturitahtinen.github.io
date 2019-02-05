@@ -11,10 +11,12 @@ p {
 	margin 0;
 }
 #Eng{
+	position: relative;
 	float: right;
 	background-color: white;
 	border: 2px solid green;
 	margin-left: 0.5%;
+	z-index: 1;
 }
 #Eng:hover{
 	-webkit-transition-duration: 0.4s;
@@ -22,10 +24,12 @@ p {
 }
 
 #Fin{
+	position: relative;
 	float: right;
 	background-color: white;
 	border: 2px solid green;
 	margin-right: 0.5%;
+	z-index: 1;
 }
 #Fin:hover{
 	-webkit-transition-duration: 0.4s;
@@ -35,6 +39,7 @@ p {
 #header{
 	background-image: url("Kuvat/programmingImage.jpg");
 	background-size: cover;
+	z-index: 0
 }
 #header p {
 	position: relative;
@@ -87,6 +92,7 @@ body {
 	margin-bottom: 0.5vw;
 	margin-right: 7vw;
 	margin-left: 7vw;
+	z-index: 0;
 	position: relative;
 	left: 1400px;
 	animation-name: animation0;
