@@ -1,5 +1,5 @@
 body{
-	background: url("Kuvat/background-kuva.jpg");
+	background-image: url("Kuvat/background-kuva.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 
