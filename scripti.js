@@ -150,11 +150,7 @@ function checkEnter(e){
 	}
 }
 function divAnimations(){
-	var section0 = document.getElementByClassname("section0");
-	var section1 = document.getElementByClassname("section1");
-	var section2 = document.getElementByClassname("section1");
-	section0.addClass("animation0");
-	section1.addClass("animation1");
-	section2.addClass("animation2");
-
+	var section0 = document.getElementsByClassName("section0");
+	var section1 = document.getElementsByClassName("section1");
+	var section2 = document.getElementsByClassName("section1");
 }
