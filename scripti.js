@@ -140,6 +140,8 @@ function checkEnter(e){
 	var x = e.keyCode;
 	if(x == 13){
 		ctx.clearRect(0, 0, cWidth, cHeight);
+		var emptyArray = [];
+    snake = emptyArray;
 		snake[0] = {
 	  x: cWidth/2,
 	  y: cHeight/2
