@@ -12,7 +12,6 @@ window.onload = function(){
 ////////////////////SnakeGame///////////////////////
 
  var game;
- var game2;
  var canvas = document.getElementById("kehys");
  var ctx = canvas.getContext("2d");
  var cWidth = canvas.width;
